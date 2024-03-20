@@ -1,0 +1,13 @@
+what is IDE?
+IDE(intergrated development environment) is a software that helps programmers devdelop software code effciently.
+Hence increasing developer productivity capabilities such as software editing, building,
+testing, and packaging in an easy-to-use application.
+
+five examples of java IDE's include;
+- dr java(is a lightweight,ide specifically designed for writing and learning Java programming.)
+- net beans(allows applications to be developed from a set of modular software components called modules.)
+- vs code
+- blue j (bulit for educational purposes.)
+-JCreator(It flaunts an interface which is similar to that of Microsoft's Visual Studio)
+
+How can we keep truck of java code?
