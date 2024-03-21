@@ -1,5 +1,5 @@
 what is IDE?
-IDE(intergrated development environment) is a software that helps programmers devdelop software code effciently.
+IDE(intergrated development environment) is a software that helps programmers develop software code effciently.
 Hence increasing developer productivity capabilities such as software editing, building,
 testing, and packaging in an easy-to-use application.
 
@@ -11,3 +11,7 @@ five examples of java IDE's include;
 -JCreator(It flaunts an interface which is similar to that of Microsoft's Visual Studio)
 
 How can we keep truck of java code?
+By using online platforms that enable to manage java code and projects.
+One of them could be Github, it keeps track of any java code saved in a repository.
+-gitlab 
+-bitbucket
