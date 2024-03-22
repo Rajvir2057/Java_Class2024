@@ -1,7 +1,6 @@
 public class Datatypes{
     public static void main(String[] args){
         // The following shows how to use String data.
-        // step1 
         String name = "Rajvir";
         String fullname = "Raj " +  "kaur";
         String stringwithnew = new String("Hello");
@@ -16,7 +15,7 @@ public class Datatypes{
         float s = 5.55f;
         float g= 4.6666f;
         // if not even double is a float that can enter 15 digits
-        double data= 5.9/34.3d;
+        double data= 5.9/34.3;
         // the following shows how to use bool , this is  true/false
         boolean testing = true;
         boolean greaterorless = 4 > 10;
