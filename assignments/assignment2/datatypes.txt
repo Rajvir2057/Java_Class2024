@@ -1,0 +1,13 @@
+Data types in java (5)
+0- these are primitive..A primitive data type specifies
+ the size and type of variable values, and it has no additional methods.
+- bool
+- int
+- char
+- float
+- short 
+- long
+0- non primitive
+- string
+-classes
+-arrays
