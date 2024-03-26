@@ -18,5 +18,7 @@ public class Triangle{
         c = Math.sqrt((a*a) + (b*b));
 
         System.out.println("The hypotinese is: "+ c );
+
+        hypotinese.close();
     }
 }

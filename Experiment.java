@@ -18,12 +18,12 @@ public class Experiment{
         int ASCI = whileloop.nextInt(); 
 
         if (ASCI >= 65 && ASCI <= 127) {
-            while (ASCI <= 88) { 
+            while (ASCI <= 127) { 
             System.out.println("The answer will input a letter. :): " + (char)ASCI); 
             ASCI++; 
             }
         } else {
-            System.out.println("Please enter a number from 65 to 88.");
+            System.out.println("Please enter a number from 65 to 90.");
         }
         whileloop.close();
     }
