@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Experiment{
     public static void main(String[] args){
         int x = 2;
@@ -9,5 +11,20 @@ public class Experiment{
 
         System.out.println( x + y );
         System.out.println(fullname);
+
+        Scanner whileloop = new Scanner(System.in); 
+        
+        System.out.print("Enter a number from 65: ");
+        int ASCI = whileloop.nextInt(); 
+
+        if (ASCI >= 65 && ASCI <= 127) {
+            while (ASCI <= 88) { 
+            System.out.println("The answer will input a letter. :): " + (char)ASCI); 
+            ASCI++; 
+            }
+        } else {
+            System.out.println("Please enter a number from 65 to 88.");
+        }
+        whileloop.close();
     }
 }
