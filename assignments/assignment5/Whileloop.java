@@ -21,6 +21,7 @@ public class Whileloop {
             num1++;
          }
         
+         whileloop.close();
 
     }
 }
