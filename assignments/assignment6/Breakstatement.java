@@ -29,6 +29,7 @@ public class Breakstatement {
             System.out.println(num + "it works!");
             num++;
         }while( num <= 10);
+        Break.close();
     }
     
 }

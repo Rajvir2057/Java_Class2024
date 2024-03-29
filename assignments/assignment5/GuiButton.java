@@ -3,8 +3,7 @@ import javax.swing.*;
 public class GuiButton {
     public static void main(String[] args) {
         JFrame frame = new JFrame("TESTING BUTTON!"); // This is the title.
-
-        JLabel label = new JLabel("welcome to testing button"); // used to write content in the frame.
+        //JLabel label = new JLabel("welcome to testing button"); // used to write content in the frame.
 
         JButton button = new JButton("END:)"); // Button name
 
