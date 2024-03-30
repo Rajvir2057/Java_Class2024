@@ -15,5 +15,6 @@ public class Whileloop {
             System.out.println("The looped answer is " + number1);
             number1++;
         }   
+        loop.close();
     }
 }

@@ -9,5 +9,6 @@ public class User_input{
         System.out.print("Enter your age: ");
         int Age= Input.nextInt();
         System.out.println("Your name is: " + Name + ", Your age is: " + Age);
+        Input.close();
     }
 }

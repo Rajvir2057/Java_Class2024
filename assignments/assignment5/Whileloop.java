@@ -19,9 +19,7 @@ public class Whileloop {
         while (num1 <= 10){
             System.err.println("looped from 1 to 10: " + num1);
             num1++;
-         }
-        
-         whileloop.close();
-
+        }
+        whileloop.close();
     }
 }

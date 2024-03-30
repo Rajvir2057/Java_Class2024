@@ -47,6 +47,6 @@ public class Dowhileloop{
             num4 ++;
         }
         while(num4 <= num5);
-
+        dowhile.close();
     }
 }

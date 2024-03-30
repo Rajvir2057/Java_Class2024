@@ -36,10 +36,12 @@ public class Operators{
         System.out.println("The added value is: " + (x+y));
         System.out.println("The modulus value is: " + (x%y));
         System.out.println(num);
+        System.out.println(name);
         System.out.println(condition);
         System.out.println(!(num3 == 0));
         System.out.println(answer);
         System.out.println(k>j);
         System.out.println(k==l);
+
     }
 }

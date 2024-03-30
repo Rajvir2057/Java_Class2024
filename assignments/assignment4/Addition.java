@@ -13,5 +13,6 @@ public class Addition{
         int sum = add1 + add2;
 
         System.out.println("The sum of "+ add1 + " and "+ add2 + " is = "+ sum );
+        addition.close();
     }
 }
