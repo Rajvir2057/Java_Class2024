@@ -28,9 +28,8 @@ public class Dowhileloop{
         do{
             System.out.println(num3);
             num3--;
-            System.out.println(sentence);
         }while (num3 >= 1);
-
+        System.out.println(sentence);
         // this adding then looping... 
 
         System.out.print("\'Enter the First number to begin the loop\': ");
