@@ -5,7 +5,7 @@ import javax.swing.JTextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MyCalculator{
+public class SimpleCalculator{
     public static void main(String[] args) {
         // Create frame
         JFrame frame = new JFrame("Basic Calculator");
