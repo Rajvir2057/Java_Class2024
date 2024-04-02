@@ -2,6 +2,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,10 +12,10 @@ public class MyCalculator{
 
         // Create frame
         JFrame frame = new JFrame(" Basic Calculator");
-        frame.setSize(300, 200);
+        frame.setSize(600, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null); 
-
+        frame.getContentPane().setBackground(Color.pink);
         // Creating the components..
         
         JLabel numLabel1 = new JLabel("Number 1:");
@@ -27,35 +29,35 @@ public class MyCalculator{
 
         // creating buttons..
         JButton addButton = new JButton("Add");
-        addButton.setBounds(100, 80, 80, 25);
+        addButton.setBounds(20, 80, 80, 25);
 
         JButton SubButton = new JButton("Sub");
-        SubButton.setBounds(100, 80, 80, 25);
+        SubButton.setBounds(110, 80, 80, 25);
 
         JButton multButton = new JButton("mult");
-        multButton.setBounds(100, 80, 80, 25);
+        multButton.setBounds(200, 80, 80, 25);
 
         JButton divButton = new JButton("div");
-        divButton.setBounds(100, 80, 80, 25);
+        divButton.setBounds(290, 80, 80, 25);
 
         JButton modButton = new JButton("Modulus");
-        modButton.setBounds(100, 80, 80, 25);
+        modButton.setBounds(380, 80, 80, 25);
 
         // result label (to bring output...)
         JLabel addLabel = new JLabel();
         addLabel.setBounds(20, 110, 250, 25);
 
         JLabel SubLabel = new JLabel();
-        SubLabel.setBounds(20, 110, 250, 25);
+        SubLabel.setBounds(20, 140, 250, 25);
 
         JLabel multLabel = new JLabel();
-        multLabel.setBounds(20, 110, 250, 25);
+        multLabel.setBounds(20, 170, 250, 25);
 
         JLabel divLabel = new JLabel();
-        divLabel.setBounds(20, 110, 250, 25);
+        divLabel.setBounds(20, 200, 250, 25);
 
         JLabel modLabel = new JLabel();
-        modLabel.setBounds(20, 110, 250, 25);
+        modLabel.setBounds(20, 230, 250, 25);
 
         // Add components to the frame
         frame.add(numLabel1);
@@ -100,11 +102,11 @@ public class MyCalculator{
             public void actionPerformed(ActionEvent e) {
                 try {
                     // Get input from text fields
-                    double num1 = Double.parseDouble(numField1.getText());
-                    double num2 = Double.parseDouble(numField2.getText());
+                    double num3 = Double.parseDouble(numField1.getText());
+                    double num4 = Double.parseDouble(numField2.getText());
 
                     // Perform subtruction
-                    double result = num1 - num2;
+                    double result = num3 - num4;
 
                     // Display result
                     SubLabel.setText("Result: " + result);
@@ -121,11 +123,11 @@ public class MyCalculator{
             public void actionPerformed(ActionEvent e) {
                 try {
                     // Get input from text fields
-                    double num1 = Double.parseDouble(numField1.getText());
-                    double num2 = Double.parseDouble(numField2.getText());
+                    double num5 = Double.parseDouble(numField1.getText());
+                    double num6 = Double.parseDouble(numField2.getText());
 
                      // Perform multiplication
-                    double result = num1 * num2;
+                    double result = num5 * num6;
 
                      // Display result
                     multLabel.setText("Result: " + result);
@@ -142,11 +144,11 @@ public class MyCalculator{
             public void actionPerformed(ActionEvent e) {
                 try {
                     // Get input from text fields
-                    double num1 = Double.parseDouble(numField1.getText());
-                    double num2 = Double.parseDouble(numField2.getText());
+                    double num7 = Double.parseDouble(numField1.getText());
+                    double num8 = Double.parseDouble(numField2.getText());
                     
                     // Perform division
-                    double result = num1 / num2;
+                    double result = num7 / num8;
                     
                     // Display result
                     divLabel.setText("Result: " + result);
@@ -163,11 +165,11 @@ public class MyCalculator{
             public void actionPerformed(ActionEvent e) {
                 try {
                     // Get input from text fields
-                    double num1 = Double.parseDouble(numField1.getText());
-                    double num2 = Double.parseDouble(numField2.getText());
+                    double num9 = Double.parseDouble(numField1.getText());
+                    double num10 = Double.parseDouble(numField2.getText());
                     
                     // Perform modulus
-                    double result = num1 % num2;
+                    double result = num9 % num10;
                     
                     // Display result
                     modLabel.setText("Result: " + result);
@@ -177,7 +179,6 @@ public class MyCalculator{
                 }
             }
         });
-
         
         // Make the frame visible
         frame.setVisible(true);
