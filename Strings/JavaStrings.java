@@ -9,6 +9,7 @@ public class JavaStrings {
         String string1 = len.next();
 
         System.out.println("The length of the string is: " + string1.length());
+        len.close();
     }
-    
+
 }
