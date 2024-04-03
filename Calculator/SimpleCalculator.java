@@ -5,24 +5,30 @@ import javax.swing.JTextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MyCalculator{
+public class SimpleCalculator{
     public static void main(String[] args) {
+
         // Create frame
-        JFrame frame = new JFrame("Basic Calculator");
+        JFrame frame = new JFrame(" Simple Calculator");
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null); // Use absolute positioning
 
-        // Create components
+        // Create components..
+        
         JLabel numLabel1 = new JLabel("Number 1:");
         numLabel1.setBounds(20, 20, 80, 25);//
         JTextField numField1 = new JTextField();
+
         numField1.setBounds(100, 20, 150, 25);
         JLabel numLabel2 = new JLabel("Number 2:");
+
         numLabel2.setBounds(20, 50, 80, 25);
         JTextField numField2 = new JTextField();
+
         numField2.setBounds(100, 50, 150, 25);
         JButton addButton = new JButton("Add");
+
         addButton.setBounds(100, 80, 80, 25);
         JLabel resultLabel = new JLabel();
         resultLabel.setBounds(20, 110, 250, 25);
