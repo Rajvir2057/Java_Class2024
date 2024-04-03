@@ -24,6 +24,8 @@ public class Student {
         System.out.print("Enter your id: ");
         id = scanner.nextInt();
 
+        scanner.nextLine();
+
         System.out.print("Enter your name: ");
         name = scanner.nextLine();
 
