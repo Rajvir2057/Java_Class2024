@@ -49,6 +49,8 @@ public class Cone {
         // calculating the area and volume..
         double area2= cone2.calculateArea();
         double volume2 = cone2.calculateVolume();
+
+        // printing the area and perimeter of a cone...
         System.out.printf("the area is %f \n" , area2);
         System.out.printf("the volume is %f \n" , volume2);
 
