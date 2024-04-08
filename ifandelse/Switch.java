@@ -27,8 +27,6 @@ public class Switch {
             System.out.println("Old");
         }
     }
+// it does not support range based cases or conditions...
 
-
-
-    
 }
