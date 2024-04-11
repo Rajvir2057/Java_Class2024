@@ -26,7 +26,9 @@ public class Switch {
             case 70:
             System.out.println("Old");
         }
+        ageinput.close();
     }
+
 // it does not support range based cases or conditions...
 
 }
