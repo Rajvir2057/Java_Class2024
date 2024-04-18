@@ -13,7 +13,8 @@ public class Arrays {
             if(numbers[i]> max){
                 max = numbers[i];
             }
+            System.out.println( "max stuff is"+ max);
         }
-        System.out.println( "max stuff is"+ max);
+
     }
 }

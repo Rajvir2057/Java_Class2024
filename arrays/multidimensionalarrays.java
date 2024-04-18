@@ -9,7 +9,7 @@ public class multidimensionalarrays {
         for(int i = 0; i < arrays.length; i++){
             for(int j = 0; j < arrays[i].length; j++){
                 for(int c = 0; c < arrays[i][j].length; c++){
-                    System.out.print(arrays[i][j][c] + " ");
+                    System.out.print(arrays[i][j][c] + ",");
                 }
                 System.out.println();
             }
