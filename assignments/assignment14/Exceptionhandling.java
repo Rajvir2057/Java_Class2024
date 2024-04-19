@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.io.File; 
 import java.io.FileNotFoundException; 
@@ -22,7 +23,6 @@ public class Exceptionhandling{
     } 
 
     //file missing..
-
         try { 
             File samplefile = new File("example2.txt"); 
   
