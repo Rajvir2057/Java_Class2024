@@ -9,22 +9,32 @@ import java.lang.Math;
 import java.util.Random;
 import java.util.Date;
 import java.util.Calendar;
-double result = Math.tan(80);
-System.out.println(result);
 
+public class Package1{
 
-Scanner scanner=new Scanner(System.in);
-int userInput=scanner.nextInt();
-double userInput=scanner.nextDouble();
-String input=scanner.nextLine();
+    public static void main(String[] args) {
+        
+        double result = Math.tan(80);
+        System.out.println(result);
 
-//Random Number Generation
-Random rand = new Random();
-int randomNumber = rand.nextInt(100);
-System.out.print("Enter your guess")
-System.out.println(randomNumber);
+        Scanner scanner =new Scanner(System.in);
 
-Date nowDate = new Date();
+        int userInput=scanner.nextInt();
 
-Calendar cal=Calendar.getInstance();
-int year=calendar.get(Calendar.YEAR);
+        double userInput=scanner.nextDouble();
+        
+        String input=scanner.nextLine();
+
+        //Random Number Generation
+        Random rand = new Random();
+        int randomNumber = rand.nextInt(100);
+        System.out.print("Enter your guess")
+        System.out.println(randomNumber);
+
+        Date nowDate = new Date();
+
+        Calendar cal=Calendar.getInstance();
+        int year=calendar.get(Calendar.YEAR);
+
+    }
+}
